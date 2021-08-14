@@ -1,0 +1,17 @@
+:root{
+    --cor-bg-1: #005CA2;
+    --cor-bg-2: #00AD63;
+    --cor-bg-3: #0000B0;
+    --cor-bg-4: #005ca2b0;
+    --cor-bg-branca: #fff;
+    --cor-bg-preta: #000;
+
+}
+.container{
+    padding: 0 30px;
+    min-height: calc(100vh - 20.75rem);
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
