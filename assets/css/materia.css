@@ -36,6 +36,26 @@
     margin: auto;
     border-radius: 10px;
 }
+.materia ul{
+    
+    max-width: 380px;
+    margin: 0 auto;
+
+}
+.materia ul li{
+    font-size: 1.1rem;
+    margin: .5rem;
+    text-align: center;
+
+}
+.materia ul li::before{
+    content: "*";
+    font-size: 1rem;
+    
+    font-family: 'Material Icons';
+    color: #00AD63;
+
+}
 .materia .container{
     
 } 
