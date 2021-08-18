@@ -38,7 +38,7 @@
 }
 .materia ul{
     
-    max-width: 380px;
+    max-width: 580px;
     margin: 0 auto;
 
 }
@@ -47,6 +47,10 @@
     margin: .5rem;
     text-align: center;
 
+}
+.e-mail{
+    color: var(--cor-bg-2);
+    text-decoration: underline;
 }
 .materia ul li::before{
     content: "*";
