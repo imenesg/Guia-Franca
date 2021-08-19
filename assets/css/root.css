@@ -5,6 +5,22 @@
     --cor-bg-4: #005ca2b0;
     --cor-bg-branca: #fff;
     --cor-bg-preta: #000;
+    --bg-color:unset;
+
+
+    --img-body: url(../img/fundobody.svg);
+
+}
+.escuro:root{
+    --cor-bg-1: #cccccc;
+    --cor-bg-2: #00AD63;
+    --cor-bg-3: #0000B0;
+    --cor-bg-4: #005ca2b0;
+    --cor-bg-branca: #fff;
+    --cor-bg-preta: rgb(202, 202, 202);
+    --bg-color:rgb(54, 54, 54);
+
+    --img-body: unset;
 
 }
 .container{
