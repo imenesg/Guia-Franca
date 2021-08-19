@@ -1,19 +1,36 @@
 const lampada = document.querySelector(".lampada");
+const html = document.querySelector("html");
 
 lampada.addEventListener("click", colorChange);
 
-var contador = 0;
-function colorChange(){
-    
-    const html = document.querySelector("html");
+html.addEventListener('DOMContentLoaded', temaEscolidoantes());
 
-    if(contador == 0){
-        html.classList.remove("escuro");
-        contador = 1;
+
+
+
+function temaEscolidoantes() {
+    
+    if(tema = localStorage.getItem('tema') == 'escuro'){
+        html.classList.add("escuro");
     }
     else{
+        html.classList.remove("escuro");
+    }
+}
+
+
+function colorChange(){
+   tema = localStorage.getItem('tema'); 
+    
+    
+
+    if(tema == "claro"){
         html.classList.add("escuro");
-        contador = 0;
+        localStorage.setItem("tema", 'escuro');
+    }
+    else{
+        html.classList.remove("escuro");
+        localStorage.setItem("tema", 'claro');
     }
     
 }
