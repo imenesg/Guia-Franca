@@ -54,6 +54,8 @@
     margin: 1rem 0;
     padding: 0 1rem;
     line-height: 1.2rem;
+    color: var(--cor-bg-preta);
+    font-size: 1.1rem;
 }
 .card-autor-contatos{
 
